@@ -1,0 +1,53 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exam Statistic</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header>
+      <div class="head">
+        <h1>Exam Statistic</h1>
+        <p>Total student %count%</p>
+        <div id="pass">
+          <div>Passed</div>
+          <div  class="dFlex">
+          <div id="passCount"></div>
+          <div id="cp"></div>
+        </div>
+        </div>
+        <div id="faled">
+          <div >Failed</div>
+          <div  class="dFlex">
+          <div id="failCount"></div>
+          <div id="cf"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <p id="error"></p>
+    <div id="form">
+      <select name="programs" id="program">
+        <option value="js">JavaScript</option>
+        <option value="web">Html & Css</option>
+      </select>
+      <input type="text" id="nameAndSurname" placeholder="Name Surname" />
+      <input type="number" id="grade" placeholder="Grade" min="5" max="10" />
+      <button id="add">ADD</button>
+    </div>
+
+    <div id="result">
+      <div class="flex">
+        <h3>Passed</h3>
+        <ul id="passList"></ul>
+      </div>
+      <div class="flex">
+        <h3>Failed</h3>
+        <ul id="failList"></ul>
+      </div>
+    </div>
+    <script type="module" src="./js/app.js"></script>
+  </body>
+</html>

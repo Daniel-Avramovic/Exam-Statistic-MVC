@@ -1,0 +1,136 @@
+header {
+  background-color: #08ebb2;
+}
+
+.head {
+  width: 30%;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  padding-bottom: 40px;
+}
+
+.head h1,
+.head p {
+  text-align: center;
+}
+
+.head #pass {
+  background-color: #3232db;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 15px;
+}
+
+.head #faled {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #d32c2c;
+  color: white;
+  padding: 15px;
+}
+
+#form {
+  text-align: center;
+}
+
+#result {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+}
+
+#result h3 {
+  margin-left: 30px;
+}
+
+#result #passList li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  border: 1px solid black;
+  width: 50%;
+  padding: 5px;
+}
+
+#result #failList li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  border: 1px solid black;
+  width: 50%;
+  padding: 5px;
+}
+
+#result .flex {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+#result .flex1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.dFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#cp, #cf {
+  margin-left: 5px;
+}
+
+.borderRes {
+  border: 1px solid #383636;
+  background-color: transparent;
+  opacity: 0.5;
+  border-radius: 3px;
+  padding: 2px 4px;
+}
+
+select, input, button {
+  padding: 5px 10px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  color: aqua;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+button:hover {
+  background-color: #beabab;
+  opacity: 0.5;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+/*# sourceMappingURL=main.css.map */
